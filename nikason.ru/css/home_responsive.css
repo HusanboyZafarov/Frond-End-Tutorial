@@ -57,6 +57,10 @@
   .section_restoration_item {
     margin-top: 3%;
   }
+
+  .section_choose_item {
+    width: 48%;
+  }
 }
 
 @media screen and (max-width:800px) {
@@ -289,6 +293,10 @@
 
   .section_restoration_list {
     margin-top: 30px;
+  }
+
+  .section_choose_item {
+    width: 100%;
   }
 }
 

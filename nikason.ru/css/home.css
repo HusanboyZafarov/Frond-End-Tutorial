@@ -693,3 +693,68 @@ footer {
 .section_redesign_btn:hover {
   transform: scale(0.9);
 }
+
+.section_hero_furnuture {
+  padding: 200px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.section_hero_furnuture h1 {
+  margin: 20px 0 90px 0;
+}
+
+.section_hero_furnuture p,
+.section_hero_furnuture h1 {
+  color: var(--color-white);
+}
+
+.section_hero_furniture_btn {
+  padding: 18px 80px;
+  background: var(--color-white);
+  color: var(--color-btn);
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.section_hero_furniture_btn:hover {
+  transform: scale(0.9);
+}
+
+.section_choose {
+  padding: 100px 0;
+}
+
+.section_choose_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.section_choose_item {
+  width: 30%;
+}
+
+.section_choose_item {
+  margin-top: 40px;
+}
+
+.section_choose_text_upper {
+  font-weight: 700;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.section_choose_text_upper::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: var(--color-light-brown);
+  top: 35px;
+  left: 0;
+}
