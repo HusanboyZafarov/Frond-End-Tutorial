@@ -960,3 +960,41 @@ footer {
 center {
   margin-top: 50px;
 }
+
+.section_hero_about {
+  padding: 100px 0;
+}
+
+.section_hero_heading {
+  text-align: center;
+}
+
+.img_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_wrapper img {
+  width: 80%;
+}
+
+.section_hero_about_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.section_hero_about_item {
+  width: 30%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.container_for_about_img {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2%;
+  margin-top: 30px !important;
+}

@@ -229,6 +229,10 @@
     width: 100%;
   }
 
+  .section_hero_about {
+    padding: 50px 0;
+  }
+
   .section_redesign {
     padding: 50px 0 100px 0;
   }
@@ -265,6 +269,30 @@
   .swiper {
     width: 100%;
     height: 200px;
+  }
+
+  .container_for_about_img {
+    max-width: none;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-top: 30px !important;
+  }
+
+  .section_hero_heading:nth-child(1) {
+    text-align: left;
+  }
+
+  .section_hero_heading:nth-child(2) {
+    margin-top: 20px !important;
+  }
+
+  .img_wrapper img {
+    width: 100%;
+  }
+
+  .section_hero_about_item {
+    width: 100%;
+    text-align: left;
   }
 }
 
@@ -319,6 +347,10 @@
 
   .section_step_item {
     width: 50%;
+  }
+
+  .section_hero_about {
+    padding: 0px 0 50px 0;
   }
 }
 
