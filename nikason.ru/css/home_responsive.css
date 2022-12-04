@@ -253,6 +253,19 @@
   .section_redesign_item p {
     margin: 50px 0 47px 0;
   }
+
+  .image_placeholder {
+    display: none;
+  }
+
+  .swiper_wrapper {
+    width: 100%;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 200px;
+  }
 }
 
 @media screen and (max-width:600px) {
@@ -297,6 +310,15 @@
 
   .section_choose_item {
     width: 100%;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 500px;
+  }
+
+  .section_step_item {
+    width: 50%;
   }
 }
 
@@ -354,6 +376,43 @@
   .section_hero_master_class_btn {
     padding: 18px 0;
     width: 100%;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 600px;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 300px;
+  }
+
+  .section_portfolio,
+  .section_choose,
+  .section_step,
+  .section_clients,
+  .section_form {
+    padding: 50px 0;
+  }
+
+  .swiper_outer,
+  .section_step_list,
+  .section_clients_list {
+    margin-top: 30px;
+  }
+
+  .section_step_item {
+    width: 100%;
+  }
+
+  .section_clients_item {
+    width: 100%;
+    display: none !important;
+  }
+
+  .section_clients_item:nth-child(1) {
+    display: block !important;
   }
 }
 
