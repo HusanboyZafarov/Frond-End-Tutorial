@@ -294,6 +294,25 @@
     width: 100%;
     text-align: left;
   }
+
+  .section_workshop_upper_item {
+    width: 100%;
+  }
+
+  .section_workshop,
+  .section_philosoply,
+  .section_smi {
+    padding: 50px 0;
+  }
+
+  .section_smi_item {
+    width: 50%;
+  }
+
+  .section_smi_item:nth-child(3),
+  .section_smi_item:nth-child(4) {
+    display: none;
+  }
 }
 
 @media screen and (max-width:600px) {
@@ -351,6 +370,10 @@
 
   .section_hero_about {
     padding: 0px 0 50px 0;
+  }
+
+  .section_philosoply p br {
+    display: none;
   }
 }
 
@@ -445,6 +468,14 @@
 
   .section_clients_item:nth-child(1) {
     display: block !important;
+  }
+
+  .section_smi_item {
+    width: 100%;
+  }
+
+  .section_smi_item:nth-child(2) {
+    display: none;
   }
 }
 

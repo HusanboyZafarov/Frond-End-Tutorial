@@ -998,3 +998,61 @@ center {
   padding: 0 2%;
   margin-top: 30px !important;
 }
+
+.section_workshop_upper_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section_workshop_upper_item {
+  width: 48%;
+}
+
+.section_workshop_upper_item img {
+  width: 100%;
+}
+
+.section_workshop_item:nth-child(1) {
+  font-size: var(--size-main-average);
+}
+
+.section_workshop_item:nth-child(2) {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.section_workshop_item:nth-child(4) {
+  margin: 15px 0;
+}
+
+.section_workshop,
+.section_philosoply {
+  padding: 100px 0;
+}
+
+.section_philosoply p {
+  text-align: end;
+  margin-top: 20px;
+}
+
+.section_smi {
+  padding: 100px 0;
+}
+
+.section_smi_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.section_smi_item {
+  width: 24%;
+}
+
+.section_smi_item img {
+  width: 100%;
+}
